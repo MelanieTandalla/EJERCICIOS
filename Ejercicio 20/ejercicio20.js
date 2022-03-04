@@ -5,8 +5,8 @@ D1= (num - (num % 100)) /100 ;
 R1 = num % 100;
 D2 =(R1 - (R1 %10)) /10;
 D3 = R1 % 10;
-num1 = ((D3*100)+(D2*10)+D1)
-if (num1 == num1) {
+let num1 = ((D3*100)+(D2*10)+D1)
+if (num == num1) {
     alert("El numero es palindromo");
     document.getElementById("1").innerHTML= "El numero es palindromo";
 } else {
